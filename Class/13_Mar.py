@@ -100,6 +100,7 @@ sleep(3)
 # it is case-sensitive and also space sensitive
 # driver.find_element(By.PARTIAL_LINK_TEXT,"Mob").click()
 
+#css selector - using attribute it will locate
 
 driver.find_element(By.CSS_SELECTOR,'input[placeholder="Search Amazon.in"]').send_keys("hello")
 
