@@ -9,7 +9,7 @@
 
 1) Open https://in.pinterest.com/
 2) Take the screenshot of entire page
-3) Scroll to a picture and caputure the screenshot of the picture
+3) Scroll to a picture and capture the screenshot of the picture
 
 ---
 
@@ -28,7 +28,7 @@
 ### Write a script to:
 
 1) navigate to amazon
-2) search a product through send_keys BUT dont click on search icon
+2) search a product through send_keys BUT don't click on search icon
 3) Wait for the suggestions to appear
 4) Click on 4th suggestion
 5) Click on Sort By and click on newest

@@ -46,7 +46,7 @@ actions.click(singleClick).perform()'''
 # actions.scroll_from_origin(origin,0, 400).perform()
 
 # move1 = driver.find_element(By.XPATH,'//div[@ID="nav-link-accountList"]')
-# actions.pause(2).move_to_element(move1).perform()
+# actions.pause(2).move_to_element(move1).perform() # it is for hover
 # driver.find_element(By.XPATH,'//span[@class="ng-tns-c2785778308-3 icon-cancel"]').click()
 # sleep(3)
 # driver.find_element(By.XPATH, '//input[@ID="password"]').send_keys("hello")
@@ -61,7 +61,7 @@ actions.click(singleClick).perform()'''
 #switch to window
 # 1) current_window_handle
 # 2) window_handles
-# 3) switch_to_window()
+# 3) switch_to.window() and switch_to.new_window()
 
 from selenium.webdriver import Chrome,ChromeOptions
 o = ChromeOptions()

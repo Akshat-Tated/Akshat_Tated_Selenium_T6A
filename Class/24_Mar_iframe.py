@@ -33,8 +33,9 @@ driver.find_element(By.ID,"inp3").send_keys("and hello duniya")
 # driver.find_element(By.ID,"inp4").send_keys("faahaaaa")
 #using webelement
 # ele = driver.find_element(By.XPATH,'//iframe[@src="page3.html"]')
-# driver.switch_to.parent_frame()
-driver.switch_to.default_content()
+# driver.switch_to.frame(ele)
+# driver.switch_to.parent_frame() #parent frame mai switch
+driver.switch_to.default_content() # origin or first frame
 driver.find_element(By.ID,"inp1").clear()
 driver.find_element(By.ID,"inp1").send_keys("back to parent ")
 
