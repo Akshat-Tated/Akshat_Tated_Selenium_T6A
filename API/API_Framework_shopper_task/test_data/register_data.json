@@ -1,0 +1,12 @@
+{
+  "city": "string",
+  "country": "string",
+  "email": "tated18@gmail.com",
+  "firstName": "string",
+  "gender": "MALE",
+  "lastName": "string",
+  "password": "sng@2022",
+  "phone": 9991233214,
+  "state": "string",
+  "zoneId": "ALPHA"
+}
