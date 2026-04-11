@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = 'AIzaSyBmBLXVHUxioXch4clCspl0TQKJUUUZQ3Y'
+API_KEY = 'api key here'
 
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent"
 
